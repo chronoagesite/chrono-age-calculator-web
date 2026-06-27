@@ -46,6 +46,11 @@ git clone https://github.com/chronoagesite/chrono-age-calculator-web.git
 
 No installation or dependencies are required.
 
+## Screenshot
+
+![Chronological Age Calculator](images/screenshot.png)
+
+
 ## Contributing
 
 Suggestions and improvements are welcome. Feel free to open an issue or submit a pull request.
