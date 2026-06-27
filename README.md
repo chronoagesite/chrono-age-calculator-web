@@ -48,7 +48,7 @@ No installation or dependencies are required.
 
 ## Screenshot
 
-![Chronological Age Calculator](Chrono age calculator tool.png)
+![Chronological Age Calculator](screenshot.png)
 
 
 ## Contributing
