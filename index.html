@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chronological Age Calculator</title>
+  <meta name="description" content="Calculate your exact chronological age in years, months, and days." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <h1>Chronological Age Calculator</h1>
+      <p>Calculate exact chronological age in years, months, and days from a birth date and reference date.</p>
+    </div>
+    <div class="card-body">
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" />
+        <span class="error-msg" id="dob-error">Please enter a valid date of birth.</span>
+      </div>
+      <div class="form-group">
+        <label for="ref">Reference Date</label>
+        <input type="date" id="ref" />
+        <span class="error-msg" id="ref-error">Reference date must be on or after the date of birth.</span>
+      </div>
+      <button class="calc-btn" id="calc-btn">Calculate Age</button>
+
+      <div class="result" id="result">
+        <div class="result-label">Exact Age</div>
+        <div class="age-blocks">
+          <div class="age-block">
+            <div class="value" id="r-years">0</div>
+            <div class="unit">Years</div>
+          </div>
+          <div class="age-block">
+            <div class="value" id="r-months">0</div>
+            <div class="unit">Months</div>
+          </div>
+          <div class="age-block">
+            <div class="value" id="r-days">0</div>
+            <div class="unit">Days</div>
+          </div>
+        </div>
+        <div class="result-summary" id="r-summary"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+    <h2>Chronological Age Calculator</h2>
+    <p>This free chronological age calculator helps calculate exact age in years, months, and days from a date of birth and a reference date. It is useful for education, healthcare, eligibility checks, and everyday age calculations.</p>
+  </div>
+
+  <footer>Created by <a href="https://chronoagecalculator.com/" target="_blank" rel="noopener noreferrer">Chrono Age Calculator</a></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
